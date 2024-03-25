@@ -2,6 +2,7 @@
 int main()
 {
     int MenuOption ; // initializing Variable for selecting option;
+    do{
 
     printf(" 1)Ramanagara\n 2)Maddur\n 3)Mandya\n 4)Mysuru\n enter your option: ");//choose option 1 to 5;
     scanf("%d",&MenuOption);
@@ -33,10 +34,12 @@ int main()
         printf("Ticket Booking Failed\n");
         break;
 
-        if (MenuOption >= 1 && MenuOption <= 4) {
-        printf("Ticket Booked Successfully\n");
-                break;
-    }
-    return 0; //End of the function code successfully executed;
-    }
-    }
+       default:
+                printf("Invalid option\n");
+                printf("Enter a valid option\n");
+                printf("Ticket Booking Failed\n");
+        }
+    } while (MenuOption < 1 || MenuOption > 4); // Loop until a valid option is entered
+
+    return 0;
+}
