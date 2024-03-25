@@ -3,7 +3,7 @@ int main()
 {
     int MenuOption ; // initializing Variable for selecting option;
 
-    printf("enter your option:");//choose option 1 to 5;
+    printf(" 1)Ramanagara\n 2)Maddur\n 3)Mandya\n 4)Mysuru\n enter your option: ");//choose option 1 to 5;
     scanf("%d",&MenuOption);
 
     //here i use switch case for selecting location for generating tickets;
