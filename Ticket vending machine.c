@@ -4,7 +4,7 @@ int main()
     int MenuOption ; // initializing Variable for selecting option;
     do{
 
-    printf(" 1)Ramanagara\n 2)Maddur\n 3)Mandya\n 4)Mysuru\n enter your option: ");//choose option 1 to 5;
+    printf(" 1)Ramanagara\n 2)Maddur\n 3)Mandya\n 4)Mysuru\n 5)exit\n enter your option: ");//choose option 1 to 6;
     scanf("%d",&MenuOption);
 
     //here i use switch case for selecting location for generating tickets;
@@ -27,8 +27,11 @@ int main()
         printf("Mysuru");
          printf("Ticket Booked Successfully\n");
         break;
-     //In case if you choose option 5 it shows invalid option;
-    case 5:
+     case 5:
+        printf("Exiting program\n");
+        return 0; // Exit the program
+     //In case if you choose option 6 it shows invalid option;
+    case 6:
         printf("invalid option\n");
         printf("Enter Valid option\n");
         printf("Ticket Booking Failed\n");
@@ -43,3 +46,4 @@ int main()
 
     return 0;
 }
+
