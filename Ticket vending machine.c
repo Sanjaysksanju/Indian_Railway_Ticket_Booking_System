@@ -1,11 +1,10 @@
 #include<stdio.h>
-
 int main() {
     int MenuOption; // initializing Variable for selecting option;
 
     do {
         // Choose option 1-5 for selecting destination address.
-        printf("Here are the list of destination places\n1) Ramanagara\n2) Maddur\n3) Mandya\n4) Mysuru\n5) Exit\nEnter your option: ");
+        printf("\nHere are the list of destination places\n1) Ramanagara\n2) Maddur\n3) Mandya\n4) Mysuru\n5) Exit\nEnter your option: ");
         scanf("%d", &MenuOption);
 
         // here I use switch case for selecting location for generating tickets
@@ -41,7 +40,7 @@ int main() {
                 printf("Enter a valid option\n");
                 printf("Ticket Booking Failed\n");
         }
-    } while (MenuOption < 1 || MenuOption > 5); // Loop until a valid option is entered
+    } while (MenuOption != 5); // Loop until a valid option is entered
 
     return 0;
 }
