@@ -1,8 +1,21 @@
-#include <stdio.h>
+#include <stdio.h>      // Standard Input/Output library, for printf and scanf functions
+#include <string.h>     // String handling library, for strcpy function
+
+// Structure to represent a ticket booking
+struct TicketBooking {
+    char destination[20];   //// Member to store the fruit Destination name
+    int numPersons;         // // Member to store the Number of persons booking tickets
+};
+
+// Function to book a ticket
+void bookTicket(struct TicketBooking booking) {
+    // Print the number of tickets booked and the destination
+    printf("%d ticket(s) booked to %s\n", booking.numPersons, booking.destination);
+    printf("Ticket(s) Booked Successfully\nHappy Journey!\n");
+}
 
 int main() {
-    int MenuOption; // initializing Variable for selecting option;
-    int numPersons; // Variable to store the number of persons
+    int MenuOption; // Variable for selecting option;
 
     do {
         // Choose option 1-5 for selecting destination address.
@@ -21,6 +34,7 @@ int main() {
         }
 
         // Ask the user to input the number of persons
+        int numPersons;
         printf("How many persons are booking tickets? ");
         scanf("%d", &numPersons);
 
@@ -30,26 +44,30 @@ int main() {
             continue;
         }
 
-        // here I use switch case for selecting location for generating tickets
+        // Create a TicketBooking structure for the booking
+        struct TicketBooking booking;
+
+        // Assign destination based on user's choice
         switch (MenuOption) {
-            // if case 1 selected ticket booked to Ramanagara etc follows same
             case 1:
-                printf("%d ticket(s) booked to Ramanagara\n", numPersons);
-                printf("Ticket(s) Booked Successfully\nHappy Journey! ");
+                strcpy(booking.destination, "Ramanagara");
                 break;
             case 2:
-                printf("%d ticket(s) booked to Maddur\n", numPersons);
-                printf("Ticket(s) Booked Successfully\nHappy Journey!");
+                strcpy(booking.destination, "Maddur");
                 break;
             case 3:
-                printf("%d ticket(s) booked to Mandya\n", numPersons);
-                printf("Ticket(s) Booked Successfully\nHappy Journey!");
+                strcpy(booking.destination, "Mandya");
                 break;
             case 4:
-                printf("%d ticket(s) booked to Mysuru\n", numPersons);
-                printf("Ticket(s) Booked Successfully\nHappy Journey!");
+                strcpy(booking.destination, "Mysuru");
                 break;
         }
+
+        // Assign the number of persons
+        booking.numPersons = numPersons;
+
+        // Book the ticket
+        bookTicket(booking);
 
     } while (MenuOption != 5); // Loop until the user chooses to exit
 
