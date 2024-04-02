@@ -24,7 +24,7 @@ int main() {
 
         // Validate the menu option
         if (MenuOption < 1 || MenuOption > 5) {
-            printf("Invalid option\n");
+            printf("Invalid option\nplease enter correct option\n");
             continue;
         }
 
