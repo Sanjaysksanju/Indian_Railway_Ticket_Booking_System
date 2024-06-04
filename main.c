@@ -78,5 +78,5 @@ int main() { // Main function declaration
 
     } while (choice != 7); // End of do-while loop
 
-    return 0; // Returning 0 to indicate successful execution
+    return 0; // Indicate successful execution
 }

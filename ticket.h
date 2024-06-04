@@ -9,4 +9,4 @@ int calculateTotalCost(int numTickets, int ticketPrice); // Function to calculat
 int validatePIN(int pin); // Function to validate PIN
 void processPayment(int totalCost); // Function to process payment
 
-#endif // End of header file marker
+#endif // End of header file
