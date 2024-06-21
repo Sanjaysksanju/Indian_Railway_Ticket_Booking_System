@@ -1,4 +1,4 @@
-# Ticket Booking System
+# Indian Railway Ticket Booking System
 This is a simple command-line ticket booking system written in C. It allows users to select a destination, specify the number of persons to booking tickets, and choose a payment method, which can slect various options to complete the booking process.
 
 ## Table of Contents
