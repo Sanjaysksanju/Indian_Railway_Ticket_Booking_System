@@ -10,5 +10,5 @@ void displayDestinations() {
     printf("4. Maddur\n");
     printf("5. Mandya\n");
     printf("6. Mysuru\n");
-    printf("7. Exit\n");
+    printf("7. Exit\n"); // dispaly all destinations which select
 }

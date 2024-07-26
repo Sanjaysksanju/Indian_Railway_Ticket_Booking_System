@@ -55,6 +55,6 @@ void processPayment(int totalCost) {
         case 5:
             printf("You have selected: Online Payment\n");
             printf("Please log in to your online payment account to complete the transaction of Rupees %d.\n", totalCost);
-            break;
+            break; // exit the loop
     }
 }
