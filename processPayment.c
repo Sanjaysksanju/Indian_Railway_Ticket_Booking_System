@@ -11,7 +11,7 @@ void processPayment(int totalCost) {
         printf("2. Debit Card\n");
         printf("3. Mobile Payment\n");
         printf("4. QR Code Payment\n");
-        printf("6. Online Payment\n");
+        printf("5. Online Payment\n");
         printf("Enter your choice (1-5): ");
         scanf("%d", &paymentMethod); // Reading user input for payment method
 
