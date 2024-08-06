@@ -24,14 +24,22 @@ Here are some screenshots of the application in action:
 1. **Source Selection**
    ![image](https://github.com/user-attachments/assets/8d5e99a0-83c5-40ae-a72a-ea43519bd3ff)
 
-2. **Destination Selection**
+   
+
+3. **Destination Selection**
    ![image](https://github.com/user-attachments/assets/d685aca6-f5d2-4af5-924e-794f3da22511)
 
-3. **Payment Method Selection**
+   
+
+5. **Payment Method Selection**
    ![image](https://github.com/user-attachments/assets/3e5b7359-b1d9-4c16-ad60-1699267f3f64)
 
-4. **Generated Ticket**
+   
+
+7. **Generated Ticket**
   ![image](https://github.com/user-attachments/assets/12bc410c-c79a-4872-94f2-35bc5b68d241)
+
+
 
 
 ## Files
