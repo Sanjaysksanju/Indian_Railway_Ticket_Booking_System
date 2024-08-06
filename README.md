@@ -1,5 +1,3 @@
-
-
 ---
 
 # Ticket Booking System
@@ -9,6 +7,7 @@
 <div style="font-size: 1.2em;">
 Welcome to the <strong>Ticket Booking System</strong>! This console-based application is designed to simplify the process of booking tickets for travel. It allows users to select sources and destinations, book tickets, and handle payments with ease.
 </div>
+
 
 ![image](https://github.com/user-attachments/assets/1e19c36f-3301-425c-9a39-8b30848a1d64)
 
