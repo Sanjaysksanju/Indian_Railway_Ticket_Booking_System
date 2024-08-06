@@ -6,7 +6,7 @@
 ## Overview
 
 <div style="font-size: 1.2em;">
-Welcome to the <strong>Ticket Booking System</strong>! This console-based application is designed to simplify the process of booking tickets for travel. It allows users to select sources and destinations, book tickets, and handle payments with ease.
+Welcome to the Ticket Booking System! This user-friendly console-based application is designed to streamline the process of booking tickets for travel, providing a seamless and efficient experience for users. Whether you are planning a trip for business or leisure, our system offers a convenient way to select your source and destination, book tickets, and handle payments all in one place.
 </div>
 
 
