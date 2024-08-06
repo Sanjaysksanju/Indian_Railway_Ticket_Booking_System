@@ -6,7 +6,8 @@
 
 Welcome to the **Ticket Booking System**! This console-based application is designed to simplify the process of booking tickets for travel. It allows users to select sources and destinations, book tickets, and handle payments with ease.
 
-![Ticket Booking System](path/to/screenshot.png)  <!-- Replace with an actual screenshot -->
+![image](https://github.com/user-attachments/assets/46570d7d-1507-494e-99b3-86519004be8b)
+
 
 ## Features
 
