@@ -22,11 +22,13 @@ Welcome to the **Ticket Booking System**! This console-based application is desi
 Here are some screenshots of the application in action:
 
 1. **Source Selection**
+
+
    ![image](https://github.com/user-attachments/assets/8d5e99a0-83c5-40ae-a72a-ea43519bd3ff)
 
-   
+2. **Destination Selection**
 
-3. **Destination Selection**
+   
    ![image](https://github.com/user-attachments/assets/d685aca6-f5d2-4af5-924e-794f3da22511)
 
    
