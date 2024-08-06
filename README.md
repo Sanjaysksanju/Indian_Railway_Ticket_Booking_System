@@ -6,7 +6,8 @@
 
 Welcome to the **Ticket Booking System**! This console-based application is designed to simplify the process of booking tickets for travel. It allows users to select sources and destinations, book tickets, and handle payments with ease.
 
-![image](https://github.com/user-attachments/assets/46570d7d-1507-494e-99b3-86519004be8b)
+![image](https://github.com/user-attachments/assets/4f19d22a-1dd9-4cdf-981b-e7092694d342)
+
 
 
 ## Features
@@ -21,13 +22,17 @@ Welcome to the **Ticket Booking System**! This console-based application is desi
 Here are some screenshots of the application in action:
 
 1. **Source Selection**
-   ![Source Selection](path/to/source_selection.png)  <!-- Replace with an actual screenshot -->
+   ![image](https://github.com/user-attachments/assets/8d5e99a0-83c5-40ae-a72a-ea43519bd3ff)
 
-2. **Payment Method Selection**
-   ![Payment Method](path/to/payment_method.png)  <!-- Replace with an actual screenshot -->
+2. **Destination Selection**
+   ![image](https://github.com/user-attachments/assets/d685aca6-f5d2-4af5-924e-794f3da22511)
 
-3. **Generated Ticket**
-   ![Generated Ticket](path/to/generated_ticket.png)  <!-- Replace with an actual screenshot -->
+3. **Payment Method Selection**
+   ![image](https://github.com/user-attachments/assets/3e5b7359-b1d9-4c16-ad60-1699267f3f64)
+
+4. **Generated Ticket**
+  ![image](https://github.com/user-attachments/assets/12bc410c-c79a-4872-94f2-35bc5b68d241)
+
 
 ## Files
 
