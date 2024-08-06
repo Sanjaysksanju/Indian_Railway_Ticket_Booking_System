@@ -1,6 +1,6 @@
 ---
 
-## Ticket Booking System
+# Ticket Booking System
 
 ## Overview
 
