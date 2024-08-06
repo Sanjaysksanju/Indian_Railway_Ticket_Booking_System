@@ -1,5 +1,3 @@
-Certainly! Here's a more detailed and visually appealing README file for your Ticket Booking System project. This version includes sections for a project overview, installation instructions, usage, and more, along with placeholder images that you can replace with actual screenshots if desired.
-
 ---
 
 # Ticket Booking System
@@ -99,20 +97,10 @@ Here are some screenshots of the application in action:
 
 Contributions are welcome! If you have suggestions or improvements, please submit an issue or pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Contact
 
-For questions or support, please reach out to [your.email@example.com](mailto:your.email@example.com).
+For questions or support, please reach out to [aksha9538@gmail.com](mailto:aksha9538@gmail.com).
 
 ---
 
-### Notes:
 
-- **Images**: Replace `path/to/screenshot.png` with actual paths to your screenshots.
-- **Repository URL**: Update the URL in the clone command to point to your actual repository.
-- **License**: Include or adjust the `LICENSE` file as needed for your project's license.
-
-Feel free to customize this template further to better fit your project's specifics and style.
