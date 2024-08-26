@@ -1,10 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include <time.h>
 #include "input_handling.h"
 #include "payment_handling.h"
 #include "route_handling.h"
+
+// Function to validate integer input
+int get_valid_integer_input() {
+    int value;
+    char buffer[100];
+
+    while (1) {
+        if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
+            printf("Error reading input.\n");
+            exit(1);
+        }
+        // Remove trailing newline character
+        buffer[strcspn(buffer, "\n")] = '\0';
+
+        // Check if the input is a valid integer
+        char *endptr;
+        value = strtol(buffer, &endptr, 10);
+        if (*endptr == '\0') {
+            return value; // Valid integer input
+        } else {
+            printf("Invalid input. Please enter a valid number.\nYour choice:");
+        }
+    }
+}
 
 int main() {
     int source, destination, adult_tickets, child_tickets, payment_method, pin;
@@ -29,12 +54,7 @@ int main() {
             printf("6. Exit\n");
             printf("Your choice: ");
 
-            if (scanf("%d", &source) != 1) {
-                printf("Invalid input. Please enter a number.\n");
-                clear_input_buffer(); // Clear the input buffer
-                continue;
-            }
-            clear_input_buffer(); // Clear any remaining input
+            source = get_valid_integer_input();
 
             if (source == 6) {
                 printf("Thank you for using our service. Goodbye!\n");
@@ -77,12 +97,7 @@ int main() {
             printf("Please enter your destination address (number):\n");
             printf("Your choice: ");
 
-            if (scanf("%d", &destination) != 1) {
-                printf("Invalid input. Please enter a number.\n");
-                clear_input_buffer(); // Clear the input buffer
-                continue;
-            }
-            clear_input_buffer(); // Clear any remaining input
+            destination = get_valid_integer_input();
 
             // Check if the destination option is valid
             if (get_ticket_price(source_filename, destination, &ticket_price, &child_ticket_price, destination_address)) {
@@ -95,20 +110,10 @@ int main() {
         // Ticket quantity
         while (1) {
             printf("Please enter the number of adult tickets you want to book: ");
-            if (scanf("%d", &adult_tickets) != 1) {
-                printf("Invalid input. Please enter a number.\n");
-                clear_input_buffer(); // Clear the input buffer
-                continue;
-            }
-            clear_input_buffer(); // Clear any remaining input
+            adult_tickets = get_valid_integer_input();
 
             printf("Please enter the number of child tickets you want to book: ");
-            if (scanf("%d", &child_tickets) != 1) {
-                printf("Invalid input. Please enter a number.\n");
-                clear_input_buffer(); // Clear the input buffer
-                continue;
-            }
-            clear_input_buffer(); // Clear any remaining input
+            child_tickets = get_valid_integer_input();
 
             if (adult_tickets < 0 || child_tickets < 0) {
                 printf("Invalid number of tickets. Please enter non-negative numbers.\n");
@@ -130,12 +135,7 @@ int main() {
             printf("4. UPI\n");
             printf("Enter your choice (1-4): ");
 
-            if (scanf("%d", &payment_method) != 1) {
-                printf("Invalid input. Please enter a number.\n");
-                clear_input_buffer(); // Clear the input buffer
-                continue;
-            }
-            clear_input_buffer(); // Clear any remaining input
+            payment_method = get_valid_integer_input();
 
             if (payment_method < 1 || payment_method > 4) {
                 printf("Invalid payment method. Please enter a number between 1 and 4.\n");
@@ -157,10 +157,21 @@ int main() {
         printf("Date & Time: %s\n", date_time);
         printf("Source: %s\n", source_address);
         printf("Destination: %s\n", destination_address);
-        printf("Number of Adult Tickets: %d\n", adult_tickets);
-        printf("Number of Child Tickets: %d\n", child_tickets);
-        printf("Ticket Price per Adult Ticket: Rupees %.2f\n", ticket_price);
-        printf("Ticket Price per Child Ticket: Rupees %.2f\n", child_ticket_price);
+
+        if (adult_tickets > 0) {
+            printf("Number of Adult Tickets: %d\n", adult_tickets);
+            printf("Ticket Price per Adult Ticket: Rupees %.2f\n", ticket_price);
+        } else {
+            printf("Number of Adult Tickets: 0\n");
+        }
+
+        if (child_tickets > 0) {
+            printf("Number of Child Tickets: %d\n", child_tickets);
+            printf("Ticket Price per Child Ticket: Rupees %.2f\n", child_ticket_price);
+        } else {
+            printf("Number of Child Tickets: 0\n");
+        }
+
         printf("Total Cost: Rupees %.2f\n", total_cost);
         printf("Type: Unreserved\n");
         printf("----------------\n");
@@ -176,10 +187,21 @@ int main() {
         fprintf(ticket_file, "Date & Time: %s\n", date_time);
         fprintf(ticket_file, "Source: %s\n", source_address);
         fprintf(ticket_file, "Destination: %s\n", destination_address);
-        fprintf(ticket_file, "Number of Adult Tickets: %d\n", adult_tickets);
-        fprintf(ticket_file, "Number of Child Tickets: %d\n", child_tickets);
-        fprintf(ticket_file, "Ticket Price per Adult Ticket: Rupees %.2f\n", ticket_price);
-        fprintf(ticket_file, "Ticket Price per Child Ticket: Rupees %.2f\n", child_ticket_price);
+
+        if (adult_tickets > 0) {
+            fprintf(ticket_file, "Number of Adult Tickets: %d\n", adult_tickets);
+            fprintf(ticket_file, "Ticket Price per Adult Ticket: Rupees %.2f\n", ticket_price);
+        } else {
+            fprintf(ticket_file, "Number of Adult Tickets: 0\n");
+        }
+
+        if (child_tickets > 0) {
+            fprintf(ticket_file, "Number of Child Tickets: %d\n", child_tickets);
+            fprintf(ticket_file, "Ticket Price per Child Ticket: Rupees %.2f\n", child_ticket_price);
+        } else {
+            fprintf(ticket_file, "Number of Child Tickets: 0\n");
+        }
+
         fprintf(ticket_file, "Total Cost: Rupees %.2f\n", total_cost);
         fprintf(ticket_file, "Type: Unreserved\n");
         fprintf(ticket_file, "----------------\n");

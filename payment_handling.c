@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h> // Added to include atoi
 #include "input_handling.h"
 #include "payment_handling.h"
 
@@ -45,6 +46,9 @@ void handle_payment(int payment_method, float total_cost, char *card_number, cha
                 clear_input_buffer(); // Clear any remaining input
                 break;
             }
+            break;
+        default:
+            printf("Invalid payment method.\n");
             break;
     }
 

@@ -1,0 +1,22 @@
+--- Ticket ---
+Date & Time: 2024-08-07 07:28:09
+Source: Kengeri
+Destination: Mysuru
+Number of Adult Tickets: 12
+Number of Child Tickets: 12
+Ticket Price per Adult Ticket: 50.00
+Ticket Price per Child Ticket: 25.00
+Total Cost: 900.00
+----------------
+
+--- Ticket ---
+Date & Time: 2024-08-07 07:28:58
+Source: Kengeri
+Destination: Ramanagara
+Number of Adult Tickets: 1
+Number of Child Tickets: 1
+Ticket Price per Adult Ticket: 30.00
+Ticket Price per Child Ticket: 15.00
+Total Cost: 45.00
+----------------
+

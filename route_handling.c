@@ -39,9 +39,9 @@ int get_ticket_price(const char *filename, int destination, float *ticket_price,
                 *child_ticket_price = *ticket_price / 2; // Half price for child tickets
                 strtok(line, ":");
                 strcpy(destination_address, line);
+                fclose(file);
+                return 1; // Valid destination
             }
-            fclose(file);
-            return 1; // Valid destination
         }
         line_num++;
     }

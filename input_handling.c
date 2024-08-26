@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h> // For atof
 #include "input_handling.h"
 
 // Function to clear the input buffer
