@@ -1,0 +1,35 @@
+
+--- Ticket ---
+Date & Time: 2024-08-26 12:55:12
+Source: Kengeri
+Destination: Ramanagara
+Number of Adult Tickets: 1
+Ticket Price per Adult Ticket: Rupees 30.00
+Number of Child Tickets: 1
+Ticket Price per Child Ticket: Rupees 15.00
+Total Cost: Rupees 45.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-08-28 11:40:41
+Source: Mysuru
+Destination: Kengeri
+Number of Adult Tickets: 0
+Number of Child Tickets: 1
+Ticket Price per Child Ticket: Rupees 25.00
+Total Cost: Rupees 25.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-08-28 11:44:02
+Source: Mysuru
+Destination: Mandya
+Number of Adult Tickets: 9
+Ticket Price per Adult Ticket: Rupees 45.00
+Number of Child Tickets: 9
+Ticket Price per Child Ticket: Rupees 22.50
+Total Cost: Rupees 607.50
+Type: Unreserved
+----------------

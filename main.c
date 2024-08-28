@@ -51,12 +51,13 @@ int main() {
             printf("3. Channapatana\n");
             printf("4. Maddur\n");
             printf("5. Mandya\n");
-            printf("6. Exit\n");
+            printf("6. Mysuru\n");
+            printf("7. Exit\n");
             printf("Your choice: ");
 
             source = get_valid_integer_input();
 
-            if (source == 6) {
+            if (source == 7) {
                 printf("Thank you for using our service. Goodbye!\n");
                 return 0; // Exit the program
             }
@@ -82,8 +83,12 @@ int main() {
                     strcpy(source_address, "Mandya");
                     strcpy(source_filename, "Mandya.txt");
                     break;
+                case 6:
+                    strcpy(source_address, "Mysuru");
+                    strcpy(source_filename, "Mysuru.txt");
+                    break;
                 default:
-                    printf("Invalid source address choice. Please enter a number between 1 and 6.\n");
+                    printf("Invalid source address choice. Please enter a number between 1 and 7.\n");
                     continue;
             }
             break; // Break out of the source selection loop if valid
