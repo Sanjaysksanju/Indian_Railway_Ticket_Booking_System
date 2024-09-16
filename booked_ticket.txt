@@ -33,3 +33,85 @@ Ticket Price per Child Ticket: Rupees 22.50
 Total Cost: Rupees 607.50
 Type: Unreserved
 ----------------
+
+--- Ticket ---
+Date & Time: 2024-08-28 11:47:56
+Source: Mysuru
+Destination: Kengeri
+Number of Adult Tickets: 1
+Ticket Price per Adult Ticket: Rupees 50.00
+Number of Child Tickets: 1
+Ticket Price per Child Ticket: Rupees 25.00
+Total Cost: Rupees 75.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-08-28 11:55:47
+Source: Kengeri
+Destination: Ramanagara
+Number of Adult Tickets: 1
+Ticket Price per Adult Ticket: Rupees 30.00
+Number of Child Tickets: 1
+Ticket Price per Child Ticket: Rupees 15.00
+Total Cost: Rupees 45.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-08-28 11:59:31
+Source: Kengeri
+Destination: Ramanagara
+Number of Adult Tickets: 1
+Ticket Price per Adult Ticket: Rupees 30.00
+Number of Child Tickets: 1
+Ticket Price per Child Ticket: Rupees 15.00
+Total Cost: Rupees 45.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-08-28 12:01:09
+Source: Channapatana
+Destination: Mysuru
+Number of Adult Tickets: 3
+Ticket Price per Adult Ticket: Rupees 15.00
+Number of Child Tickets: 3
+Ticket Price per Child Ticket: Rupees 7.50
+Total Cost: Rupees 67.50
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-09-16 20:11:45
+Source: Mysuru
+Destination: Channapatana
+Number of Adult Tickets: 0
+Number of Child Tickets: 0
+Total Cost: Rupees 0.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-09-16 20:13:50
+Source: Mysuru
+Destination: Mandya
+Number of Adult Tickets: 1
+Ticket Price per Adult Ticket: Rupees 30.00
+Number of Child Tickets: 1
+Ticket Price per Child Ticket: Rupees 15.00
+Total Cost: Rupees 45.00
+Type: Unreserved
+----------------
+
+--- Ticket ---
+Date & Time: 2024-09-16 20:36:27
+Source: Ramanagara
+Destination: Kengeri
+Number of Adult Tickets: 9
+Ticket Price per Adult Ticket: Rupees 5.00
+Number of Child Tickets: 8
+Ticket Price per Child Ticket: Rupees 2.50
+Total Cost: Rupees 65.00
+Type: Unreserved
+----------------

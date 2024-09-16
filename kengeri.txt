@@ -1,5 +1,5 @@
-Ramanagara: 30 rupees
-Channapatana: 35 rupees
-Maddur: 40 rupees
-Mandya: 45 rupees
-Mysuru: 50 rupees
+Ramanagara: 5 rupees
+Channapatana: 10 rupees
+Maddur: 15 rupees
+Mandya: 20 rupees
+Mysuru: 25 rupees

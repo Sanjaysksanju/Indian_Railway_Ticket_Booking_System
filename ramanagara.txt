@@ -2,3 +2,4 @@ Channapatana: 5 rupees
 Maddur: 10 rupees
 Mandya: 15 rupees
 Mysuru: 20 rupees
+Kengeri: 5 rupees

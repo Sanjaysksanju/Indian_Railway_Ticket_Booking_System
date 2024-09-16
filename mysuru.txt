@@ -1,5 +1,5 @@
-Mandya: 45 rupees
-Maddur: 40 rupees
-Channapatana: 35 rupees
-Ramanagara: 30 rupees
-Kengeri: 50 rupees
+Mandya: 5 rupees
+Maddur: 10 rupees
+Channapatana: 15 rupees
+Ramanagara: 20 rupees
+Kengeri: 25 rupees

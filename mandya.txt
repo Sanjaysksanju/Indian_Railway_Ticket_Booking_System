@@ -1,1 +1,5 @@
 Mysuru: 5 rupees
+Maddur: 5 rupees
+Channapatana: 10 rupees
+Ramanagara: 15 rupees
+Kengeri: 20 rupees

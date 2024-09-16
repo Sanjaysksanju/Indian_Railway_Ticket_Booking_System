@@ -1,2 +1,5 @@
 Mandya: 5 rupees
 Mysuru: 10 rupees
+Channapatana: 5 rupees
+Ramanagara: 10 rupees
+Kengeri: 15 rupees

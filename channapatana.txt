@@ -1,3 +1,5 @@
 Maddur: 5 rupees
 Mandya: 10 rupees
 Mysuru: 15 rupees
+Ramanagara: 5 rupees
+Kengeri: 10 rupees
